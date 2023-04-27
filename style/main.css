@@ -1,7 +1,6 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -10,12 +9,14 @@
 }
 
 
-li, a, button {
+li,
+a,
+button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: rgb(10, 9, 8);
-    text-decoration:  none;
+    text-decoration: none;
 }
 
 header {
@@ -24,67 +25,68 @@ header {
     align-items: center;
     padding: 30px 10%;
 }
+
 img {
     width: 6%;
     height: auto;
-  }
-
-  .logo{
-    cursor: pointer;
-    margin-right: auto;
-  }
-
-  .nav_links {
-    list-style: none;
-  }
-
-  .nav_links li {
-    display: inline-block;
-    padding: 0px 20px;
-  }
-
-  .nav_links li:nth-child(1) {
-    padding: 0 20px 0 0;
-  }
-
-  .nav_links li a {
-    transition: all 0.3s ease 0s;
-  }
-
-  .nav_links li a:hover {
-    color:darkorange;
-  }
-
-button{
-    margin-left: 20px;
-    padding: 9px 25px;
-    background-color:darkorange;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer; 
-    transition:all 0.3s ease 0s;
 }
 
-button:hover{
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li:nth-child(1) {
+    padding: 0 20px 0 0;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: darkorange;
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: darkorange;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
     background-color: rgb(167, 94, 5);
 }
 
-footer{
-    position:absolute;
-     width: 100%;
-     bottom: 0;
-     height:auto;
-     left: 0;
-     right: 0;
-     display: flex;
-     flex-direction: column;
+.home-page-footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: auto;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
 
 }
 
-.content{
+.content {
     width: 100%;
     height: auto;
-    background-color:rgb(243, 215, 168);
+    background-color: rgb(243, 215, 168);
     padding: 30px 0;
     display: flex;
     align-items: center;
@@ -94,21 +96,21 @@ footer{
 .content h3 {
     font-size: 30px;
     font-weight: 400;
-    color:rgb(9, 3, 3);
+    color: rgb(9, 3, 3);
     background-color: transparent;
 }
 
-.content p{
+.content p {
     font-size: 10px;
     font-weight: 200;
-     color: rgb(9, 4, 4);
-     background-color: transparent;
-     padding-bottom: 1%;
+    color: rgb(9, 4, 4);
+    background-color: transparent;
+    padding-bottom: 1%;
 
 }
 
 
-.content form{
+.content form {
     width: 500px;
     height: 55px;
     background-color: rgb(248, 243, 243);
@@ -116,7 +118,7 @@ footer{
     display: flex;
 }
 
-.content form input{
+.content form input {
     flex: 1;
     background-color: rgb(250, 249, 247);
     border: none;
@@ -128,23 +130,23 @@ footer{
     border-radius: 100px;
 }
 
-.content form button{
+.content form button {
     width: 100px;
     border-radius: 100px;
     border: none;
     outline: none;
-    background-color:darkorange;
+    background-color: darkorange;
     color: azure;
     margin: 4px;
     cursor: pointer;
     transition: 0.5s;
 }
 
-.content form button:hover{
-    background-color:rgb(167, 94, 5);
+.content form button:hover {
+    background-color: rgb(167, 94, 5);
 }
 
-.content-2{
+.content-2 {
     width: 100%;
     height: 50px;
     background-color: aqua;
@@ -152,22 +154,23 @@ footer{
     align-items: center;
     justify-content: space-between;
 }
-.content-2 p{
+
+.content-2 p {
     font-size: 12px;
     font-weight: 200;
     color: aqua;
 }
 
-.content-2 p a{
-color: transparent;
-text-decoration: none;
+.content-2 p a {
+    color: transparent;
+    text-decoration: none;
 }
 
 #copyright {
     bottom: 0;
     left: 10px;
     position: absolute;
- }
+}
 
 .plane {
     background-color: transparent;
@@ -175,8 +178,33 @@ text-decoration: none;
     align-items: center;
 }
 
-h1{
+h1 {
     text-align: center;
     border-top: 100px;
     font-family: 'Montserrat', sans-serif;
+}
+
+.other-footers {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+}
+
+.eboard-mem-pic {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.eboard-mem-pic img{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.other-footers li {
+    list-style: none;
+}
+
+.other-footers img {
+    width: 50px;
 }
